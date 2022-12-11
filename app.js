@@ -15,6 +15,10 @@ app.get('/',(req,res) => {
     res.send(`Hello world from home`);
 });
 
+app.get('/home',(req,res) => {
+    res.send(`Hello world from home`);
+});
+
 app.listen(port || process.env.port, ()=> {
     console.log(`server is running on port no ${port}`);   
 })
