@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const cookieParser = require('cookie-parser');
 
-require('../db/conn');
+require('../DB/conn');
 const User = require('../model/userSchema');
 const nodemailer = require('nodemailer');
 
